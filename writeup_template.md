@@ -27,8 +27,8 @@ In addition to using multiple cameras, I also use data augmentation techniques t
 In this model, vertically flipping and cropping are used as data pre-process techniques. For example, an effective technique for eliminating background of image involves cropping and helps with choosing the area of interest. Here is an example of using cropping technique:
 
 [image1]: ./examples/images.jpg "Image"
-[image2]: ./examples/resized image.jpg "resized image"
-[image3]: ./examples/cropped image.jpg "cropped image"
+[image2]: ./examples/resized_image.jpg "resized image"
+[image3]: ./examples/cropped_image.jpg "cropped image"
 
 
 ### Model Architecture and Training Strategy
