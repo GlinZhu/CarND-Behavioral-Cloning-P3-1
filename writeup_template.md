@@ -32,7 +32,53 @@ In this model, vertically flipping and cropping are used as data pre-process tec
 
 
 ### Model Architecture and Training Strategy
+The CNN was chosen to be the model from NVIDIA reserach work, which consists of 5 convolutional layers and 3 fully connected layers with ReLu activation. Here is the architecture:
+* Input(160, 320, 3)
+Images were cropped to remove the first 75 pixels (removing the sky and trees) and bottom 20 pixels (removing the car hood)
 
+* Cropping (Removed top 75 pixels and bottom 20 pixels)
+
+* Convolution (Kernel: 5x5, Depth: 24, Stride: 2, border: valid)
+
+* Relu
+
+* Convolution (Kernel: 5x5, Depth: 36, Stride: 2, border: valid)
+
+* Relu
+
+* Convolution (Kernel: 5x5, Depth: 48, Stride: 2, border: valid)
+
+* Relu
+
+* Convolution (Kernel: 3x3, Depth: 64, Stride: 1, border: valid)
+
+* Relu
+
+* Convolution (Kernel: 3x3, Depth: 64, Stride: 1, border: valid)
+
+* Relu
+
+* Flatten
+
+* Fully Connected layer (Size: 1164, activation: Relu)
+
+* Fully Connected layer (Size: 100, activation: Relu)
+
+* Fully Connected layer (Size: 50, activation: Relu)
+
+* Fully Connected layer (Size: 10, activation: Relu)
+
+* Output (1)
+
+Training parameters:
+
+* Optimizer: Adam
+* Learning rate: 1e-3
+* Batch size: 32
+* Epochs: 12
+* steps per epoch:  ~270
+
+### Validation and Results
 
 
 
