@@ -77,8 +77,34 @@ Training parameters:
 * Batch size: 32
 * Epochs: 12
 * steps per epoch:  ~270
-
+Model_validation_loss.png
 ### Validation and Results
+After lot of hours of tuning and training, the model was able to successfully run at track one with no issues observed. there was no evidence of overfitting and the model was able to complete several laps since even if I tried implement dropout in the model, it doesn't make any difference on the model. The training data was split into training and validation (80/20) and used data augmentation to create more data per epoch. 
+Here is the results of validation loss from each epoch during training:
+* Epoch 2/12
+- 272/271 [==============================] - 198s - loss: 0.0148 - val_loss: 0.0124
+* Epoch 2/12
+272/271 [==============================] - 197s - loss: 0.0113 - val_loss: 0.0112
+* Epoch 3/12
+272/271 [==============================] - 195s - loss: 0.0099 - val_loss: 0.0102
+* Epoch 4/12
+272/271 [==============================] - 193s - loss: 0.0088 - val_loss: 0.0093
+* Epoch 5/12
+272/271 [==============================] - 194s - loss: 0.0077 - val_loss: 0.0086
+* Epoch 6/12
+272/271 [==============================] - 196s - loss: 0.0068 - val_loss: 0.0080
+* Epoch 7/12
+272/271 [==============================] - 197s - loss: 0.0060 - val_loss: 0.0077
+* Epoch 8/12
+272/271 [==============================] - 190s - loss: 0.0052 - val_loss: 0.0075
+* Epoch 9/12
+272/271 [==============================] - 191s - loss: 0.0046 - val_loss: 0.0073
+* Epoch 10/12
+272/271 [==============================] - 189s - loss: 0.0041 - val_loss: 0.0072
+* Epoch 11/12
+272/271 [==============================] - 191s - loss: 0.0040 - val_loss: 0.0070
+* Epoch 12/12
+272/271 [==============================] - 187s - loss: 0.0035 - val_loss: 0.0066
 
 
 
