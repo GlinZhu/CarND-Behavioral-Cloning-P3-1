@@ -26,6 +26,11 @@ images from three cameras are all used in the model training, however, the image
 In addition to using multiple cameras, I also use data augmentation techniques to process the images to enlarge the training data set so that the model can be trained with even more data. some popular augmentation techniques are usually used in the data pre-processing such as flip, rotation, scale, and crop, etc. 
 In this model, vertically flipping and cropping are used as data pre-process techniques. For example, an effective technique for eliminating background of image involves cropping and helps with choosing the area of interest. Here is an example of using cropping technique:
 
+[image1]: ./examples/images.jpg "Image"
+[image2]: ./examples/resized image.jpg "resized image"
+[image3]: ./examples/cropped image.jpg "cropped image"
+
+
 ### Model Architecture and Training Strategy
 
 
