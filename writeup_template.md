@@ -18,8 +18,8 @@ Traning data was collected on simulator and two laps of track 1 as well as recov
 
 ### Data processing and augmentation
 images from three cameras are all used in the model training, however, the image taken from side cameras are different from the ones that are taken from center camera, the steering angles for side cameras need to be adjusted since from the perspective of left camera, the steering angle command will be less than steering angles from center camera, and from the right camera's perspective, the steering angle would be larger than the angle from the center camera. therefore, to account for being off center, I adjust the steering angles for the images taken from side cameras as fllows:
-*left_steering_angle=center_steering_angle +offset
-*right_steering_angle=center_steering_angle +offset
+* left_steering_angle=center_steering_angle +offset
+* right_steering_angle=center_steering_angle +offset
 
 -offset can be tunned and set to 0.2 in the model.
 
