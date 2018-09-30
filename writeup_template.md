@@ -27,8 +27,8 @@ In addition to using multiple cameras, I also use data augmentation techniques t
 In this model, vertically flipping and cropping are used as data pre-process techniques. For example, an effective technique for eliminating background of image involves cropping and helps with choosing the area of interest. Here is an example of using cropping technique:
 
 ![Image](https://github.com/GlinZhu/CarND-Behavioral-Cloning-P3-1/blob/master/examples/images.jpg)
-[image2]: ./examples/resized_image.jpg "resized image"
-[image3]: ./examples/cropped_image.jpg "cropped image"
+![Image](https://github.com/GlinZhu/CarND-Behavioral-Cloning-P3-1/blob/master/examples/cropped%20image.jpg "Cropped image")
+![Image](https://github.com/GlinZhu/CarND-Behavioral-Cloning-P3-1/blob/master/examples/resized%20image.jpg "Resized image")
 
 
 ### Model Architecture and Training Strategy
