@@ -77,7 +77,6 @@ Training parameters:
 * Batch size: 32
 * Epochs: 12
 * steps per epoch:  ~270
-Model_validation_loss.png
 
 ### Validation and Results
 After lot of hours of tuning and training, the model was able to successfully run at track one with no issues observed. there was no evidence of overfitting and the model was able to complete several laps since even if I tried implement dropout in the model, it doesn't make any difference on the model. The training data was split into training and validation (80/20) and used data augmentation to create more data per epoch. and I also shuffle the data before they are fed into the model.
@@ -120,6 +119,7 @@ Here is the results of validation loss from each epoch during training:
 272/271 [==============================] - 187s - loss: 0.0035 - val_loss: 0.0066
 
 The results above show that the validation loss kept going down when model have more epoches. 
+![Image](https://github.com/GlinZhu/CarND-Behavioral-Cloning-P3-1/blob/master/examples/Model_validation_loss.png)
 
 ### Simulation
 I was able to train the model on track one and it successfully runs on the track one without any issues, the video shows below:
