@@ -129,6 +129,4 @@ The results above show that the validation loss kept going down when model have 
 
 ![Image](https://github.com/GlinZhu/CarND-Behavioral-Cloning-P3-1/blob/master/examples/Model_validation_loss.png)
 
-### Simulation
-I was able to train the model on track one and it successfully runs on the track one without any issues, the video shows below:
 
