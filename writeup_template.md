@@ -119,6 +119,7 @@ Here is the results of validation loss from each epoch during training:
 272/271 [==============================] - 187s - loss: 0.0035 - val_loss: 0.0066
 
 The results above show that the validation loss kept going down when model have more epoches. 
+
 ![Image](https://github.com/GlinZhu/CarND-Behavioral-Cloning-P3-1/blob/master/examples/Model_validation_loss.png)
 
 ### Simulation
