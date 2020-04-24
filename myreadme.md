@@ -6,7 +6,7 @@ Please follow the instructions on how to get the code running.
 First, download the all project files to your local machine.
 Second, get the corrected environment installed, tensorflow-gpu=1.12.0, python=3.6.7, keras=2.2.4 are used in the project.
 
-```
+
 1. Download the all project files from gradescope into your testing directory
 2. Download the vgg model from [GT Box](https://gatech.box.com/shared/static/z4jy5rit7bft4j047926mxf2m3wy14zr.h5) or [Dropbox](https://www.dropbox.com/s/ejeqtum3auqgp2k/vgg16_best_model.h5?dl=0)
 3. Put the vgg model under your testing directoy(for example, ./cv_final_proj)
@@ -15,7 +15,6 @@ Second, get the corrected environment installed, tensorflow-gpu=1.12.0, python=3
 6. conda activate cv_proj
 7. python run.py
 
-```
 ## Project folder structure
 * Test_images folder - contains all test images for this project, 1-6.png
 * graded_images folder - contains processed images
